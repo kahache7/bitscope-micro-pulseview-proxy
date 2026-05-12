@@ -97,11 +97,6 @@ The project intentionally uses a simple explicit path in `bitscope_core.py`:
 APP_DIR = Path(__file__).resolve().parent
 BITLIB_PATH = str(APP_DIR / "BitLib.dll")
 ```
-
-If you create a private portable package, keep `BitLib.dll` in the same folder as `bitscope_core.py`.
-
-Do not commit `BitLib.dll` to a public GitHub repository unless you have confirmed that its license allows redistribution.
-
 ---
 
 ## PulseView setup
