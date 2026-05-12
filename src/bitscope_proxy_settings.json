@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "mode": "MIXED",
+  "rate_text": "100000",
+  "analog_threshold": "1.5",
+  "simulator": false,
+  "fake_data": false,
+  "ch1": {
+    "source": "POD",
+    "range": "9.2 V",
+    "offset": "0.0",
+    "probe_mode": "1x",
+    "probe_factor": "1",
+    "yinc_mode": "auto",
+    "yinc": "0.0724409449"
+  },
+  "ch2": {
+    "source": "POD",
+    "range": "9.2 V",
+    "offset": "0.0",
+    "probe_mode": "1x",
+    "probe_factor": "1",
+    "yinc_mode": "auto",
+    "yinc": "0.0724409449"
+  },
+  "trigger": {
+    "mode": "Normal",
+    "source": "ana0",
+    "edge": "RISE",
+    "level": "2",
+    "intro_s": "0.002",
+    "delay_s": "0.0",
+    "timeout_s": "0.5"
+  },
+  "export": {
+    "prefix": "D:\\tmp\\tmp\\bitscope\\BitScopePortable\\app\\captures\\capture",
+    "timestamp": true,
+    "csv": false,
+    "sigrok_csv": false,
+    "svg": false,
+    "vcd": false,
+    "sr": true,
+    "open_pulseview": false
+  }
+}
