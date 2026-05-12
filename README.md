@@ -24,6 +24,9 @@ This project is experimental, but it is already usable for embedded debugging, l
 - Separates the main BitScope/proxy log from the verbose PulseView SCPI/debug log.
 
 ---
+<p align="center">
+  <img src="docs/screenshots/proxy.jpg" alt="BitScope Micro PulseView proxy GUI" width="900">
+</p>
 
 ## Why?
 
