@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="docs/screenshots/bitscope.png" alt="BitScope Micro PulseView proxy GUI" width="900">
+  <img src="docs/screenshots/bitscope.png" alt="https://github.com/codenio/bitscope/blob/master/images/bitscope.png)" width="900">
 </p>
 # BitScope Micro PulseView Proxy
 
