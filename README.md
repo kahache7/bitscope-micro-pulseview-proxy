@@ -654,62 +654,11 @@ trigger_status = timeout_auto_no_event_found
 
 ---
 
-## Recommended `.gitignore`
-
-```gitignore
-# BitScope / vendor binaries
-BitLib.dll
-*.dll
-
-# Portable runtime
-python32/
-pulseview/
-
-# Captures and generated files
-captures/
-*.sr
-*.csv
-*.svg
-*.vcd
-*_sigrok.csv
-_proxy_capture*
-
-# Local GUI settings
-bitscope_proxy_settings.json
-
-# Python
-__pycache__/
-*.pyc
-*.pyo
-.venv/
-venv/
-
-# OS/editor
-.DS_Store
-Thumbs.db
-.vscode/
-.idea/
-```
-
----
-
-## Suggested license
-
-MIT is a good fit if you want the tool to be easy to reuse.
-
-GPL is also reasonable if you want derived versions to stay open source.
-
-This repository should not include BitLib.dll unless its license allows redistribution.
-
----
-
 ## Links
 
 - PulseView / sigrok: https://sigrok.org/wiki/PulseView
 - sigrok project: https://sigrok.org/
 - BitScope: https://bitscope.com/
-
-If the original BitScope website is unavailable, keep a local private copy of the BitLib installer/DLL for reproducibility, but do not redistribute it publicly unless allowed by its license.
 
 ---
 
