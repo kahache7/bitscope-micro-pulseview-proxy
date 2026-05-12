@@ -49,7 +49,7 @@ Tested with:
 
 - BitScope Micro `DB98TI79`
 - BitLib `2.0 FE26B`
-- Windows
+- Windows (.py should work in others)
 - Python 3.11 32-bit
 - PulseView / sigrok
 - BitScope modes: `FAST`, `DUAL`, `MIXED`, `LOGIC`
