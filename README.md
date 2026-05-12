@@ -37,9 +37,7 @@ BitScope Micro hardware is useful, but protocol decoding is much nicer in PulseV
 
 This tool bridges both worlds:
 
-- Trigger on a UART start bit and decode in PulseView.
-- Trigger on SPI chip-select falling edge.
-- Trigger near an I2C transaction.
+- Trigger on a UART start bit, SPI chip-select or I2c transaction and decode in PulseView.
 - Capture mixed analog + logic signals for embedded debugging.
 - Export `.sr` files for later PulseView analysis.
 
