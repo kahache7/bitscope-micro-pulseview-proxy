@@ -30,6 +30,7 @@ This project is experimental, but it is already usable for embedded debugging, l
 <p align="center">
   <img src="docs/screenshots/pulseview.jpg" alt="BitScope Micro PulseView proxy GUI" width="900">
 </p>
+
 ## Why?
 
 BitScope Micro hardware is useful, but protocol decoding is much nicer in PulseView/sigrok.
