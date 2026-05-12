@@ -1,7 +1,8 @@
 <p align="center">
   <img src="docs/screenshots/bitscope.png" alt="https://github.com/codenio/bitscope/blob/master/images/bitscope.png)" width="900">
 </p>
-# BitScope Micro PulseView Proxy
+
+## BitScope Micro PulseView Proxy
 
 A Python proxy that lets a **BitScope Micro** capture analog and digital signals and view them directly in **PulseView** through sigrok's existing `rigol-ds` driver.
 
