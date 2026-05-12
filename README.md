@@ -54,46 +54,6 @@ Other BitScope models may work, but they are not tested.
 
 ---
 
-## Repository layout
-
-Recommended layout:
-
-```text
-bitscope-micro-pulseview-proxy/
-  README.md
-  LICENSE
-  .gitignore
-  requirements.txt
-
-  src/
-    bitscope_core.py
-    bitscope_rigol_proxy.py
-    bitscope_cli.py
-
-  scripts/
-    run_proxy.bat
-    run_proxy_debug.bat
-    run_cli.bat
-
-  docs/
-    screenshots/
-      proxy-ui.png
-      pulseview-logic-trigger.png
-      pulseview-mixed.png
-    hardware/
-      bitscope-micro-photo.jpg
-    notes/
-      bitlib-findings.md
-      trigger-behavior.md
-
-  examples/
-    esp32_counter_test/
-      README.md
-      esp32_counter_test.ino
-```
-
----
-
 ## Dependencies
 
 ### Required
