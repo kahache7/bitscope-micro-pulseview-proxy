@@ -1,0 +1,2 @@
+# No external Python packages required.
+# Requires Python 3.11 32-bit on Windows when using 32-bit BitLib.dll.
